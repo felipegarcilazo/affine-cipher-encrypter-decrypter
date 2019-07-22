@@ -37,9 +37,7 @@ class Application(tk.Frame):
         if math.gcd(int(len(alphabet)), int(mult_key))!=1:
             result = "ERROR: Multiplication key does not have a valid inverse. Or a non-digit number was inputed."
         else:
-            if mode_c=="dec" and add_key=='unknown':
-                result = tools.unknown_decrypter(alphabet, txt_inp)
-            elif mode_c == "enc":
+            if mode_c == "enc":
                 result = tools.encrypt(alphabet, mult_key, add_key, txt_inp)
             else:
                 result = tools.decrypt(alphabet, mult_key, add_key, txt_inp)
