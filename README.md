@@ -5,6 +5,6 @@ Features:
 
 Includes simple GUI interface using tkinter.
 
-Possible decryption of a message without knowledge of the keys by typing 'unknown' in the 'addition key' field.
-
 Ability to change the alphabet used.
+
+Can also be used for addition and multiplication ciphers
