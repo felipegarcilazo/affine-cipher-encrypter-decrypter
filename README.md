@@ -3,7 +3,7 @@ A quick way to encrypt and decrypt messages with the affine cipher using python.
 
 Features:
 
-Includes simple interface using tkinter.
+Includes simple GUI interface using tkinter.
 
 Possible decryption of a message without knowledge of the keys by typing 'unknown' in the 'addition key' field.
 
