@@ -3,7 +3,6 @@ import math
 def euclidean(x, y):
     if y > x:
         x, y = y, x
-    quotients, x1, y1 = [], x, y
     while y != 0:
         quotients.append(math.floor(x/y))
         x, y = y, x-math.floor(x/y)*y
